@@ -1,0 +1,70 @@
+@media (prefers-reduced-motion: no-preference) {
+    .Input-field {
+        height: 2rem;
+        width: 15rem;
+        padding-left: 1rem;
+        border-radius: 1rem;
+        box-shadow: 1px 1px 1px black;
+        border: 1px solid transparent;
+        margin: 0.5rem 0;
+    }
+
+    .Header {
+        margin-bottom: 1rem;
+        /* background-color: antiquewhite; */
+    }
+
+    .Btn {
+        padding: 5px;
+        border: none;
+        border-radius: 20px;
+        background-color: azure;
+        margin: 0.3rem 0.4rem;
+
+    }
+
+    .Btn:hover {
+        background-color: rgb(193, 193, 193);
+        color: rgb(33, 33, 130);
+    }
+
+    .Heading {
+        color:rgb(185, 161, 208);
+        margin: 1rem;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .Input-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid rgb(103, 66, 137);
+        border-bottom: 2px solid rgb(103, 66, 137);
+    }
+
+    .List-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #Object-List {
+        border-radius: 15px;
+        margin: 10px 0;
+        padding: 0 1rem;
+        background-color: rgb(177, 110, 239) ;
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 18rem;
+    }
+
+    .Object-text {
+        flex: 1;
+    }
+}

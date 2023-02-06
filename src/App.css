@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Main {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 10, 68);
+  }
+
+  .Home {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 20rem;
+    height: auto;
+    min-width: 15rem;
+    min-height: 30rem;
+    background-color:  rgb(40, 10, 68);
+    border: 1px solid  rgb(103, 66, 137);
+  }
+
+  /* ---------------------------------------------------------------------------------------- */
+
+}
